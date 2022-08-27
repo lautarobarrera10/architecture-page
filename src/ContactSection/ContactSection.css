@@ -1,0 +1,39 @@
+.ContactSection {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    z-index: 1;
+}
+
+.ContactSection-SocialMedia-Container {
+    display: flex;
+    align-items: center;
+}
+
+.ContactSection-SocialMediaIcon {
+    margin: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ContactSection-Contact-Container {
+    display: flex;
+}
+
+.ContactSection-Contact {
+    display: flex;
+    align-items: center;
+}
+
+.ContactSection-Contact i {
+    margin: 0 8px 0 16px;
+}
+
+.ContactSection-Contact p {
+    font-size: 14px;
+}
