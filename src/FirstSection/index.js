@@ -2,6 +2,13 @@ import React from "react";
 import './FirstSection.css';
 
 function FirstSection({children}){
+    // Animaciones en el título
+    window.onload = () => {
+        const firstTitle = document.querySelector('.FirstSection-FirstTitle');
+        const secondTitle = document.querySelector('.FirstSection-SecondTitle');
+        firstTitle.classList.add('loaded');
+        secondTitle.classList.add('loaded');
+      }
     return (
         <div className="FirstSection-Background">
             {children}
