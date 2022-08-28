@@ -9,6 +9,7 @@ function Header() {
                 <img className="Logo" src={Logo} alt="AP Logo"/>
                 <h1>Architecture Page</h1>
             </div>
+            <i className="Nav-Burger bi bi-list"></i>
             <ul>
                 <li className="Active_Page">Home</li>
                 <li>Proyectos</li>

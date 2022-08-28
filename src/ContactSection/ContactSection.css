@@ -37,3 +37,20 @@
 .ContactSection-Contact p {
     font-size: 14px;
 }
+
+@media only screen and (max-width: 600px) {
+    .ContactSection-SocialMedia-Container {
+        margin: 8px 0 4px;
+    }
+    .ContactSection {
+        padding-bottom: 8px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ContactSection-Contact-Container {
+        flex-direction: column;
+    }
+    .ContactSection-Contact p {
+        margin: 4px 0;
+    }
+}

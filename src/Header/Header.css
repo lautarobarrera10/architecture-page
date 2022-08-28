@@ -26,6 +26,10 @@
     font-size: 20px;
 }
 
+.Header .Nav-Burger {
+    display: none;
+}
+
 .Header ul {
     display: flex;
     list-style: none;
@@ -47,4 +51,28 @@
 .Active_Page {
     font-weight: 500;
     border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 600px) {
+    .Header {
+        align-items: center;
+        top: 110px;
+        padding: 0;
+        width: 100vw;
+    }
+    .Logo {
+        margin-left: 18px;
+        width: 70px;
+    }
+    .Header h1 {
+        font-size: 15px;
+    }
+    .Header ul {
+        display: none;
+    }
+    .Header .Nav-Burger {
+        display: block;
+        margin-right: 22px;
+        font-size: 32px;
+    }
 }
