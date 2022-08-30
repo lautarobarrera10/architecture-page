@@ -3,6 +3,12 @@ import './Header.css';
 import Logo from './ap_logo.png';
 
 function Header() {
+
+    document.addEventListener('scroll', function(){
+        const header = document.querySelector('header');
+        header.classList.toggle('fixed', window.scrollY > 50);
+    });
+
     return(
         <header className="Header">
             <div className="Logo-Container">

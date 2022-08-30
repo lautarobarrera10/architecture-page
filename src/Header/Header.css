@@ -7,6 +7,15 @@
     width: calc(100% - 260px);
     z-index: 2;
     color: white;
+    transition: all .2s ease-in-out;
+}
+
+.Header.fixed {
+    position: fixed;
+    top: 0;
+    align-items: center;
+    padding-top: 4px;
+    background-color: #1b1b1b;
 }
 
 .Logo-Container {
