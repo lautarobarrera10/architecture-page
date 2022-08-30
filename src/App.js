@@ -3,6 +3,7 @@ import { Header } from './Header';
 import { FirstSection } from './FirstSection';
 import { ContactSection } from './ContactSection';
 import { TeamSection } from './TeamSection';
+import { LogoSection } from './LogoSection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <ContactSection />
       </FirstSection>
       <TeamSection />
+      <LogoSection />
     </div>
   );
 }

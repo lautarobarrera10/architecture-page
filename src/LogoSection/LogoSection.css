@@ -1,0 +1,27 @@
+.LogoSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 160px;
+    background-color: #3f3f3f;
+    font-size: 18px;
+    color: white;
+}
+
+.LogoSection img {
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    .LogoSection {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .LogoSection img {
+        margin: 20px 0;
+    }
+    .LogoSection p {
+        width: 80%;
+    }
+}

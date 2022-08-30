@@ -29,6 +29,7 @@
 }
 
 .TeamMember-Container {
+    margin-bottom: -90px;
     position: relative;
     top: -100px;
     width: 100%;
@@ -68,6 +69,7 @@
 
 .Divider {
     margin-top: 20px;
+    margin-bottom: 40px;
     width: 15%;
     height: 2px;
     background-color: #d0d0d0;
