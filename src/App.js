@@ -4,6 +4,7 @@ import { FirstSection } from './FirstSection';
 import { ContactSection } from './ContactSection';
 import { TeamSection } from './TeamSection';
 import { LogoSection } from './LogoSection';
+import { PortfolioSection } from './PortfolioSection';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </FirstSection>
       <TeamSection />
       <LogoSection />
+      <PortfolioSection />
     </div>
   );
 }
