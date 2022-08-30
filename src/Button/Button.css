@@ -1,0 +1,22 @@
+.Button {
+    display: block;
+    font-size: 18px;
+    margin: 20px;
+    padding: 12px 16px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.Button.black {
+    color: black;
+    border: 1px solid black;
+}
+
+.Button.black:hover {
+    color: white;
+    background-color: black;
+}
+
+.Button.center {
+    margin: 20px auto;
+}

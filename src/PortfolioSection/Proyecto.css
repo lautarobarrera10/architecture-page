@@ -1,0 +1,32 @@
+.Proyecto-Container {
+    margin: 20px;
+    position: relative;
+    width: 280px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.Proyecto-Container img {
+    height: 100%;
+}
+
+.Proyecto {
+    position: relative;
+    top: -194px;
+    height: 191px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Proyecto:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.Proyecto p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
