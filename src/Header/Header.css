@@ -24,7 +24,7 @@
 
 .Logo {
     width: 90px;
-    height: fit-content;
+    height: 66.656px;
     cursor: pointer;
 }
 
@@ -72,6 +72,7 @@
     .Logo {
         margin-left: 18px;
         width: 70px;
+        height: 51.844px;
     }
     .Header h1 {
         font-size: 15px;
